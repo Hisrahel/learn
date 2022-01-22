@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    padding-left: 2rem;
+}
+.nav-link{
+    color: white !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 2rem;
+}
+.cate{
+    padding-left: 100px;
+    padding-right: 40px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.btn-sign{
+    background: white;
+    color: #002147 !important;
+    font-weight: 500;
+    border-radius: 10px;
+}
+nav{
+    background: #002147;
+}
+.fleet{
+    position: absolute;
+    color: black;
+    bottom: 42px;
+    left: 280px;
+}
+.section1{
+    width: 100%;
+    height: 80vh; 
+    background-size: cover;
+    background: url('img/angle.png');
+}
+.vector{
+   padding-top: 15%;
+   padding-left: 50%;
+}
+.section2{
+    background: #F0F4F9;
+    position: relative;
+}
+.btn-get{
+    background: #00BCF5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.come{
+    padding-top: 100px;
+}
+.master{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(46, 46, 141);
+}
+.mid{
+    padding-top: 130px;
+}
+.dev{
+    margin-left: 40px !important;
+    color: black;
+}
+.dev:hover{
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+.top{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.322) !important;
+}
+.intro{
+    font-size: 11px;
+}
+.intros{
+    font-size: 12px;
+}
+.star{
+    font-size: 12px;
+}
+.naira{
+    font-size: 12px !important;
+}
+.user1{   
+    position: absolut;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+}
+.research{
+    font-weight: bold;
+    font-size: 20px;
+    color: #2A4565;
+}
+.class{
+    background: #F0F4F9;
+    margin-top: 100px;
+}
+.top{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgba(0, 33, 71, 0.9);
+}
+.learn{
+    color: rgba(0, 33, 71, 0.9);
+    font-size: 20px;
+}
+.cardos{
+    background-color: #002147;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.rect{
+    position: absolute;
+    left: 700px;
+    top: 4050px;
+}
+.my{
+    margin-top: 200px;
+}
+.torm{
+    position: absolute;
+    bottom: 31px;
+    right: 12px;
+}
+.torms{
+    position: absolute;
+    bottom: 60px;
+    right: 12px;
+}
+.dami{
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    margin-left: 100px;
+}
+.chef{
+    margin-top: 100px;
+}
+.btn-browse{
+    background-color: #fff;
+    border: 2px solid #00BCF5;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cardo{
+    background-color: #002147;
+}
+.draw{
+    width: 110%;
+}
+.num{
+    border-bottom: 5px solid #00BCF5;
+    padding-top: 25px;
+}
+.title{
+    position: absolute;
+    height: 35vh;
+    width: 550px;
+    right: 400px;
+    top: 6020px;
+}
+.naira{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.potent{
+    font-size: 10px;
+}
+.pic{
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url('img/Rectangle 18.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+    height: 100vh;
+}
+.learner{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.monday{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #00BCF5;
+}
+.section4{
+    background: #012447;
+    padding-top: 100px;
+}
+.tt{
+    position: relative;
+}
+.bloc{
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    left: 130px;
+    bottom: 0px;
+    background: #00BCF5;
+}
+.tg{
+    padding-bottom: 200px;
+}
+.head {
+    margin-top: 40px;
+    padding-right: 100px;
+    
+}
+.head a {
+    color: black;
+    padding-left: 10px;
+    display: inline-block;
+    transition: 0.3s;
+    font-size: 16px;
+}
+.circle{
+    width: 200%;
+}
+.tool{
+    width: 150%;
+}
+.africa{
+    width: 500px; 
+    height: 650px;
+}
+.path{
+    width: 100%;
+}
+.dami{
+    width: 100%;
+}
+.comp{
+    margin-top: 100px;
+}
+.lean{
+    font-size: small;
+}
+@media(max-width: 576px){
+    .pic{
+        height: 60vh;
+        margin-top: 0px !important;
+    }
+    .mage{
+        margin-top: 20px;
+    }
+    .star{
+        font-size: 15px;
+        padding-left: 30px;
+    }
+    .naira{
+        font-size: 15px !important;
+        padding-left: 150px;
+    }
+    .intro{
+        font-size: 15px;
+    }
+    .intros{
+        font-size: 13px;
+    }
+    .dev{
+        margin-left: 20px !important;
+        color: black;
+    }
+    .new{
+        font-size: small;
+    }
+    .lean{
+        font-size: x-small;
+    }
+    .toper{
+        font-size: 25px !important;
+    }
+    .top{
+        text-align: left;
+        font-size: 20px !important;
+        padding-top: 50px !important;
+        line-height: 20px !important;
+        padding-left: 80px !important;
+    }
+    .feat{
+        padding-top: 150px !important;
+    }
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+    .vector img{
+        width: 30% !important;
+    }
+    .block{
+        width: 95% !important;
+        height: auto !important;
+        left: 10px !important;
+    }
+    .span{
+        width: 40% !important;
+        left: 0px !important;
+        padding-top: 25px !important;
+        font-size: 15px !important;
+        line-height: 25px !important;
+    }
+    #demo{
+        text-align: left;
+        font-size: 18px !important;
+        margin-top: 35px;
+        color: white;
+        font-weight: 600;
+        padding-left: 6px !important;
+    }
+    .grad{
+        display: none;
+    }
+    .come{
+        padding-top: 0.2rem !important;
+        text-align: center !important;
+    }
+    .master{
+        text-align: center !important;
+    }
+    .skills{
+        text-align: center !important;
+    }
+    .take{ 
+        margin-top: -160px !important;
+    }
+    .autom{
+        display: none !important;
+    }
+    .head{
+        padding-right: 30px !important;
+        padding-left: 10px !important;
+    }
+    .bloc{
+        width: 80% !important;
+        left: 0 !important;
+    }
+    .circle{
+        width: 10%;
+    }
+    .tool{
+        width: 17%;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    .africa{
+        width: 350px; 
+        height: 400px;
+    }
+    .path{
+        width: 310px;
+        padding-right: 100px !important;
+    }
+    .dami{
+        width: 325px;
+        margin-top: 20px;
+        padding-right: 100px !important;
+    }
+    .draw{
+        width: 100%;
+    }
+    .torm{
+        bottom:8px;
+        right: 140px;
+    }
+    .torms{
+        bottom: 15px;
+        right: 143px;
+    }
+    .comp{
+        margin-top: 30px;
+    }
+
+} 
+@media(max-width: 768px){
+    .pic{
+        height: 40vh;
+    }
+    .title{
+        position: absolute;
+        height: 20vh;
+        width: 550px;
+        right: 100px;
+        top: 6580px;
+    }
+    .draw{
+        width: 345px;
+        height: 500px;
+    }
+    .corp{
+        margin-top: 100px;
+    }
+    .path{
+        width: 80%;
+    }
+    .dami{
+        width: 80%;
+    }
+    .tool{
+        width: 300%;
+    }
+    .torm{
+        bottom:115px;
+        right: -1px;
+        width: 50%;
+    }
+    .torms{
+        bottom: 145px;
+        right: -4px;
+        width: 60%;
+    }
+    .rect{
+        position: absolute;
+        left: 450px;
+        top: 4700px;
+    }
+    .africa{
+        width: 400px; 
+        height: 1000px;
+        padding-top: 350px;
+    }
+    .top{
+        text-align: center;
+        font-size: 25px !important;
+        margin-top: -80px;
+    }
+    .lean{
+        font-size: 20px;
+    }
+    .dev{
+        margin-left: 30px !important;
+        color: black;
+    }
+    .nav-link{
+        margin-right: 2px;
+    }
+    .section1{
+        height: 100vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 20% !important;
+       padding-left: 45% !important;
+    }
+    .block{
+        width: 95% !important;
+        height: auto !important;
+        left: 10px !important;
+    }
+    .span{
+        width: 40% !important;
+        left: 0px !important;
+        padding-top: 25px !important;
+        font-size: 15px !important;
+        line-height: 25px !important;
+
+    }
+    #demo{
+        text-align: left;
+        font-size: 18px !important;
+        margin-top: 35px;
+        color: white;
+        font-weight: 600;
+        padding-left: 6px !important;
+    }
+    .auto{
+        width: 80%;
+        height: 80px;
+        left: 45px;
+        top: 23rem !important;
+    }
+    .take{
+        padding-top: 120px !important;
+    }
+    .dear{
+        padding-top: 100px !important;
+    }
+}
+@media(max-width: 1024px){
+    .pic{
+        height: 40vh;
+    }
+    .title{
+        position: absolute;
+        height: 15vh;
+        width: 550px;
+        right: 200px;
+        top: 6530px;
+    }
+    .draw{
+        width: 495px;
+        height: 500px;
+    }
+    .corp{
+        margin-top: 100px;
+    }
+    .path{
+        width: 90%;
+    }
+    .dami{
+        width: 90%;
+    }
+    .tool{
+        width: 200%;
+    }
+    .torm{
+        bottom: 80px;
+        right: -1px;
+        width: 50%;
+    }
+    .torms{
+        bottom: 85px;
+        right: -4px;
+        width: 60%;
+    }
+    .rect{
+        position: absolute;
+        left: 570px;
+        top: 4550px;
+    }
+    .circle{
+        width: 500%;
+    }
+    .africa{
+        width: 500px; 
+        height: 1000px;
+    }
+    .top{
+        text-align: center;
+        font-size: 25px !important;
+        margin-top: -80px;
+    }
+    .lean{
+        font-size: 20px;
+    }
+    .dev{
+        margin-left: 30px !important;
+        color: black;
+    }
+    .nav-link{
+        margin-right: 0px;
+    }
+    .fleet{
+        left: 250px !important;
+        bottom: 50px;
+    }
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+     .nav-link{
+        padding-right: 10px !important;
+    }
+    .block{
+        width: 95%;
+    }
+    .skills{
+        line-height: 32px;
+        font-size: 25px;
+    }
+    .top{
+        font-size: 30px;
+        padding-top: 80px !important;
+    }
+    .feat{
+        padding-top: 200px;
+    }
+    .rect{
+        padding-left: 0 !important;
+    }
+    .auto{
+        width: 80%;
+        height: 80px;
+        left: 45px;
+        top: 470px;
+        background: white;
+        border-radius: 5px; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .bloc{
+        left: 30px !important;
+    }
+    
+} 
