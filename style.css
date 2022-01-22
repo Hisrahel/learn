@@ -97,9 +97,11 @@ nav{
 }
 .star{
     font-size: 12px;
+    padding-left: 14px;
 }
 .naira{
     font-size: 12px !important;
+    padding-left: 50px;
 }
 .user1{   
     position: absolut;
@@ -132,17 +134,17 @@ nav{
     margin-top: 100px;
 }
 .rect{
-    position: absolute;
-    left: 700px;
-    top: 4050px;
+    position: absolute !important;
+    left: 700px !important;
+    top: 4050px !important;
 }
 .my{
     margin-top: 200px;
 }
 .torm{
-    position: absolute;
-    bottom: 31px;
-    right: 12px;
+    position: absolute !important;
+    bottom: 31px !important;
+    right: 12px !important;
 }
 .torms{
     position: absolute;
@@ -178,11 +180,11 @@ nav{
     padding-top: 25px;
 }
 .title{
-    position: absolute;
-    height: 35vh;
-    width: 550px;
-    right: 400px;
-    top: 6020px;
+    position: absolute !important;
+    height: 35vh !important;
+    width: 550px !important;
+    right: 400px !important;
+    top: 6020px !important;
 }
 .naira{
     margin-top: 15px;
@@ -262,41 +264,41 @@ nav{
 }
 @media(max-width: 576px){
     .pic{
-        height: 60vh;
+        height: 60vh !important;
         margin-top: 0px !important;
     }
     .mage{
-        margin-top: 20px;
+        margin-top: 20px !important;
     }
     .star{
-        font-size: 15px;
-        padding-left: 30px;
+        font-size: 15px !important;
+        padding-left: 30px !important;
     }
     .naira{
         font-size: 15px !important;
-        padding-left: 150px;
+        padding-left: 150px !important;
     }
     .intro{
-        font-size: 15px;
+        font-size: 15px !important;
     }
     .intros{
-        font-size: 13px;
+        font-size: 13px !important;
     }
     .dev{
         margin-left: 20px !important;
-        color: black;
+        color: black !important;
     }
     .new{
-        font-size: small;
+        font-size: small !important;
     }
     .lean{
-        font-size: x-small;
+        font-size: x-small !important;
     }
     .toper{
         font-size: 25px !important;
     }
     .top{
-        text-align: left;
+        text-align: left !important;
         font-size: 20px !important;
         padding-top: 50px !important;
         line-height: 20px !important;
@@ -330,15 +332,15 @@ nav{
         line-height: 25px !important;
     }
     #demo{
-        text-align: left;
+        text-align: left !important;
         font-size: 18px !important;
-        margin-top: 35px;
-        color: white;
-        font-weight: 600;
+        margin-top: 35px !important;
+        color: white !important;
+        font-weight: 600 !important;
         padding-left: 6px !important;
     }
     .grad{
-        display: none;
+        display: none !important;
     }
     .come{
         padding-top: 0.2rem !important;
@@ -365,103 +367,103 @@ nav{
         left: 0 !important;
     }
     .circle{
-        width: 10%;
+        width: 10% !important;
     }
     .tool{
-        width: 17%;
-        margin-left: 130px;
-        margin-top: 20px;
+        width: 17% !important;
+        margin-left: 130px !important;
+        margin-top: 20px !important;
     }
     .africa{
-        width: 350px; 
-        height: 400px;
+        width: 350px !important; 
+        height: 400px !important;
     }
     .path{
-        width: 310px;
+        width: 310px !important;
         padding-right: 100px !important;
     }
     .dami{
-        width: 325px;
-        margin-top: 20px;
+        width: 325px !important;
+        margin-top: 20px !important;
         padding-right: 100px !important;
     }
     .draw{
-        width: 100%;
+        width: 100% !important;
     }
     .torm{
-        bottom:8px;
-        right: 140px;
+        bottom:8px !important;
+        right: 140px !important;
     }
     .torms{
-        bottom: 15px;
-        right: 143px;
+        bottom: 15px !important;
+        right: 143px !important;
     }
     .comp{
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
 } 
 @media(max-width: 768px){
     .pic{
-        height: 40vh;
+        height: 40vh !important;
     }
     .title{
-        position: absolute;
-        height: 20vh;
-        width: 550px;
-        right: 100px;
-        top: 6580px;
+        position: absolute !important;
+        height: 20vh !important;
+        width: 550px !important;
+        right: 100px !important;
+        top: 6580px !important;
     }
     .draw{
-        width: 345px;
-        height: 500px;
+        width: 345px !important;
+        height: 500px !important;
     }
     .corp{
-        margin-top: 100px;
+        margin-top: 100px !important;
     }
     .path{
-        width: 80%;
+        width: 80% !important;
     }
     .dami{
-        width: 80%;
+        width: 80% !important;
     }
     .tool{
-        width: 300%;
+        width: 300% !important;
     }
     .torm{
-        bottom:115px;
-        right: -1px;
-        width: 50%;
+        bottom:115px !important;
+        right: -1px !important;
+        width: 50% !important;
     }
     .torms{
-        bottom: 145px;
-        right: -4px;
-        width: 60%;
+        bottom: 145px !important;
+        right: -4px !important;
+        width: 60% !important;
     }
     .rect{
-        position: absolute;
-        left: 450px;
-        top: 4700px;
+        position: absolute !important;
+        left: 450px !important;
+        top: 4700px !important;
     }
     .africa{
-        width: 400px; 
-        height: 1000px;
-        padding-top: 350px;
+        width: 400px !important; 
+        height: 1000px !important;
+        padding-top: 350px !important;
     }
     .top{
-        text-align: center;
+        text-align: center !important;
         font-size: 25px !important;
         margin-top: -80px;
     }
     .lean{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .dev{
         margin-left: 30px !important;
-        color: black;
+        color: black !important;
     }
     .nav-link{
-        margin-right: 2px;
+        margin-right: 2px !important;
     }
     .section1{
         height: 100vh !important; 
@@ -486,17 +488,17 @@ nav{
 
     }
     #demo{
-        text-align: left;
+        text-align: left !important;
         font-size: 18px !important;
-        margin-top: 35px;
-        color: white;
-        font-weight: 600;
+        margin-top: 35px !important;
+        color: white !important;
+        font-weight: 600 !important;
         padding-left: 6px !important;
     }
     .auto{
-        width: 80%;
-        height: 80px;
-        left: 45px;
+        width: 80% !important;
+        height: 80px !important; 
+        left: 45px !important;
         top: 23rem !important;
     }
     .take{
@@ -508,67 +510,67 @@ nav{
 }
 @media(max-width: 1024px){
     .pic{
-        height: 40vh;
+        height: 40vh !important;
     }
     .title{
-        position: absolute;
-        height: 15vh;
-        width: 550px;
-        right: 200px;
-        top: 6530px;
+        position: absolute !important;
+        height: 15vh !important;
+        width: 550px !important;
+        right: 200px !important;
+        top: 6530px !important;
     }
     .draw{
-        width: 495px;
-        height: 500px;
+        width: 495px !important;
+        height: 500px !important;
     }
     .corp{
-        margin-top: 100px;
+        margin-top: 100px !important;
     }
     .path{
-        width: 90%;
+        width: 90% !important;
     }
     .dami{
-        width: 90%;
+        width: 90% !important;
     }
     .tool{
-        width: 200%;
+        width: 200% !important;
     }
     .torm{
-        bottom: 80px;
-        right: -1px;
-        width: 50%;
+        bottom: 80px !important;
+        right: -1px !important;
+        width: 50% !important;
     }
     .torms{
-        bottom: 85px;
-        right: -4px;
-        width: 60%;
+        bottom: 85px !important;
+        right: -4px !important;
+        width: 60% !important
     }
     .rect{
-        position: absolute;
-        left: 570px;
-        top: 4550px;
+        position: absolute !important;
+        left: 570px !important;
+        top: 4550px !important;
     }
     .circle{
-        width: 500%;
+        width: 500% !important;
     }
     .africa{
-        width: 500px; 
-        height: 1000px;
+        width: 500px !important; 
+        height: 1000px !important;
     }
     .top{
-        text-align: center;
+        text-align: center !important;
         font-size: 25px !important;
-        margin-top: -80px;
+        margin-top: -80px !important;
     }
     .lean{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .dev{
         margin-left: 30px !important;
-        color: black;
+        color: black !important;
     }
     .nav-link{
-        margin-right: 0px;
+        margin-right: 0px !important;
     }
     .fleet{
         left: 250px !important;
@@ -587,30 +589,30 @@ nav{
         padding-right: 10px !important;
     }
     .block{
-        width: 95%;
+        width: 95% !important;
     }
     .skills{
-        line-height: 32px;
-        font-size: 25px;
+        line-height: 32px !important;
+        font-size: 25px !important;
     }
     .top{
-        font-size: 30px;
+        font-size: 30px !important;
         padding-top: 80px !important;
     }
     .feat{
-        padding-top: 200px;
+        padding-top: 200px !important;
     }
     .rect{
         padding-left: 0 !important;
     }
     .auto{
-        width: 80%;
-        height: 80px;
-        left: 45px;
-        top: 470px;
-        background: white;
-        border-radius: 5px; 
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 80% !important;
+        height: 80px !important;
+        left: 45px !important;
+        top: 470px !important;
+        background: white !important;
+        border-radius: 5px !important; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
     }
     .bloc{
         left: 30px !important;
