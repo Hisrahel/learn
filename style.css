@@ -18,9 +18,8 @@
 .cate{
     padding-left: 100px;
     padding-right: 40px;
-    border-radius: 5px;
+    border-radius: 25px;
     margin-right: 2rem;
-    border-radius: 20px;
 }
 .btn-sign{
     background: white;
@@ -279,7 +278,184 @@ nav{
     padding-top: 30px;
 }
 
- @media(max-width: 576px){
+@media(max-width: 1024px){
+    .pic{
+        height: 40vh !important;
+    }
+    .title{
+        position: absolute !important;
+        height: 15vh !important;
+        width: 550px !important;
+        right: 200px !important;
+        top: 5950px !important;
+    }
+    .draw{
+        width: 545px !important;
+        height: 350px !important;
+        padding-left: 60px;
+    }
+    .path{
+        width: 90% !important;
+    }
+    .dami{
+        width: 90% !important;
+    }
+    .tool{
+        width: 200% !important;
+    }
+    .torm{
+        bottom: 80px !important;
+        right: -1px !important;
+        width: 50% !important;
+    }
+    .torms{
+        bottom: 85px !important;
+        right: -4px !important;
+        width: 60% !important
+    }
+    .rect{
+        position: absolute !important;
+        left: 570px !important;
+        top: 4550px !important;
+    }
+    .circle{
+        width: 0% !important;
+    }
+    .africa{
+        width: 400px !important; 
+        height: 900px !important;
+    }
+    .top{
+        text-align: center !important;
+        font-size: 25px !important;
+        margin-top: -80px !important;
+    }
+    .lean{
+        font-size: 20px !important;
+    }
+    .dev{
+        margin-left: 30px !important;
+        color: black !important;
+    }
+    .fleet{
+        left: 250px !important;
+        bottom: 50px;
+    }
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+    .top{
+        font-size: 30px !important;
+        padding-top: 80px !important;
+    }
+    .rect{
+        position: absolute !important;
+        left: 630px !important;
+        top: 4350px !important;
+    }
+    .copy{
+        padding-left: 13px !important;
+    }
+    .nav-link{
+        margin-right: 0px;
+    }
+    .cate{
+        padding-left: 40px;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
+    .fleet{
+        left: 255px !important;
+        bottom: 36px;
+    }
+    nav{
+        height: 6vh;
+    }
+}
+
+@media(max-width: 768px){
+    .pic{
+        height: 40vh !important;
+    }
+    .title{
+        position: absolute !important;
+        height: 20vh !important;
+        width: 550px !important;
+        right: 100px !important;
+        top: 6100px !important;
+    }
+    .draw{
+        width: 420px !important;
+        height: 500px !important;
+    }
+    .path{
+        width: 80% !important;
+    }
+    .dami{
+        width: 80% !important;
+    }
+    .tool{
+        width: 300% !important;
+    }
+    .torm{
+        bottom:139px !important;
+        right: -1px !important;
+        width: 60% !important;
+    }
+    .torms{
+        bottom: 117px !important;
+        right: -4px !important;
+        width: 60% !important;
+    }
+    .rect{
+        position: absolute !important;
+        left: 470px !important;
+        top: 4280px !important;
+    }
+    .africa{
+        width: 250px !important; 
+        height: 1000px !important;
+        padding-top: 350px !important;
+    }
+    .top{
+        text-align: center !important;
+        font-size: 25px !important;
+        margin-top: -80px;
+    }
+    .lean{
+        font-size: 20px !important;
+    }
+    .dev{
+        margin-left: 30px !important;
+        color: black !important;
+    }
+    .nav-link{
+        margin-right: 0px !important;
+    }
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 30% !important;
+       padding-left: 45% !important;
+    }
+    .corp{
+        padding-left: 13px !important;
+    }
+    .copy{
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 576px){
     .navbar-nav{
         background: #002147;
         padding-bottom: 20px;
@@ -334,6 +510,7 @@ nav{
         width: 300px !important; 
         height: 400px !important;
         align-items: center;
+        padding-top: 0px !important;
     } 
     .class{
         margin-top: 25px;
@@ -369,12 +546,12 @@ nav{
     .torm{
         bottom:9px !important;
         right: 165px !important;
-        width: 7%;
+        width: 7% !important;
     }
     .torms{
         bottom: 15px !important;
         right: 165px !important;
-        width: 8%;
+        width: 8% !important;
     }
     .chef{
         margin-top: 30px;
@@ -403,7 +580,7 @@ nav{
     .title{
         width: 350px !important;
         right: 10px !important;
-        top: 10915px !important;
+        top: 11040px !important;
         height: 37vh !important;
     }
     .earn{
@@ -416,6 +593,7 @@ nav{
     .pic{
         height: 50vh !important;
         margin-top: 310px !important;
+        padding-bottom: 100px !important;
     }
     .land{
         width: 40%;
@@ -423,212 +601,9 @@ nav{
     }
     .section4{
         padding-top: 30px;
-        padding-bottom: 250px !important;
     }
     .comp{
         margin-top: 30px;
         margin-bottom: 10px;
     }
-   
-
-/*@media(max-width: 768px){
-    .pic{
-        height: 40vh !important;
-    }
-    .title{
-        position: absolute !important;
-        height: 20vh !important;
-        width: 550px !important;
-        right: 100px !important;
-        top: 6580px !important;
-    }
-    .draw{
-        width: 345px !important;
-        height: 500px !important;
-    }
-    .corp{
-        margin-top: 100px !important;
-    }
-    .path{
-        width: 80% !important;
-    }
-    .dami{
-        width: 80% !important;
-    }
-    .tool{
-        width: 300% !important;
-    }
-    .torm{
-        bottom:115px !important;
-        right: -1px !important;
-        width: 50% !important;
-    }
-    .torms{
-        bottom: 145px !important;
-        right: -4px !important;
-        width: 60% !important;
-    }
-    .rect{
-        position: absolute !important;
-        left: 450px !important;
-        top: 4700px !important;
-    }
-    .africa{
-        width: 400px !important; 
-        height: 1000px !important;
-        padding-top: 350px !important;
-    }
-    .top{
-        text-align: center !important;
-        font-size: 25px !important;
-        margin-top: -80px;
-    }
-    .lean{
-        font-size: 20px !important;
-    }
-    .dev{
-        margin-left: 30px !important;
-        color: black !important;
-    }
-    .nav-link{
-        margin-right: 2px !important;
-    }
-    .section1{
-        height: 100vh !important; 
-        background: url('img/angle.png')center !important;
-        background-size: cover!important;
-    }
-    .vector{
-       padding-top: 20% !important;
-       padding-left: 45% !important;
-    }
-    .span{
-        width: 40% !important;
-        left: 0px !important;
-        padding-top: 25px !important;
-        font-size: 15px !important;
-        line-height: 25px !important;
-
-    }
-    .auto{
-        width: 80% !important;
-        height: 80px !important; 
-        left: 45px !important;
-        top: 23rem !important;
-    }
-    .take{
-        padding-top: 120px !important;
-    }
-    .dear{
-        padding-top: 100px !important;
-    }
-} */
-/* @media(max-width: 1024px){
-    .pic{
-        height: 40vh !important;
-    }
-    .title{
-        position: absolute !important;
-        height: 15vh !important;
-        width: 550px !important;
-        right: 200px !important;
-        top: 6530px !important;
-    }
-    .draw{
-        width: 495px !important;
-        height: 500px !important;
-    }
-    .corp{
-        margin-top: 100px !important;
-    }
-    .path{
-        width: 90% !important;
-    }
-    .dami{
-        width: 90% !important;
-    }
-    .tool{
-        width: 200% !important;
-    }
-    .torm{
-        bottom: 80px !important;
-        right: -1px !important;
-        width: 50% !important;
-    }
-    .torms{
-        bottom: 85px !important;
-        right: -4px !important;
-        width: 60% !important
-    }
-    .rect{
-        position: absolute !important;
-        left: 570px !important;
-        top: 4550px !important;
-    }
-    .circle{
-        width: 500% !important;
-    }
-    .africa{
-        width: 500px !important; 
-        height: 1000px !important;
-    }
-    .top{
-        text-align: center !important;
-        font-size: 25px !important;
-        margin-top: -80px !important;
-    }
-    .lean{
-        font-size: 20px !important;
-    }
-    .dev{
-        margin-left: 30px !important;
-        color: black !important;
-    }
-    .nav-link{
-        margin-right: 0px !important;
-    }
-    .fleet{
-        left: 250px !important;
-        bottom: 50px;
-    }
-    .section1{
-        height: 50vh !important; 
-        background: url('img/angle.png')center !important;
-        background-size: cover!important;
-    }
-    .vector{
-       padding-top: 40% !important;
-       padding-left: 45% !important;
-    }
-     .nav-link{
-        padding-right: 10px !important;
-    }
-    .skills{
-        line-height: 32px !important;
-        font-size: 25px !important;
-    }
-    .top{
-        font-size: 30px !important;
-        padding-top: 80px !important;
-    }
-    .feat{
-        padding-top: 200px !important;
-    }
-    .rect{
-        padding-left: 0 !important;
-    }
-    .auto{
-        width: 80% !important;
-        height: 80px !important;
-        left: 45px !important;
-        top: 470px !important;
-        background: white !important;
-        border-radius: 5px !important; 
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
-    }
-    .bloc{
-        left: 30px !important;
-    }
-    
-}
-  */ 
+}  
