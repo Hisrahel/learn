@@ -9,14 +9,16 @@
 .nav-link{
     color: white !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 2rem;
+    margin-right: 28px;
+}
+.land{
+    margin-top: 15px;
+    margin-bottom: 120px;
 }
 .cate{
     padding-left: 100px;
     padding-right: 40px;
     border-radius: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     margin-right: 2rem;
     border-radius: 20px;
 }
@@ -24,20 +26,23 @@
     background: white;
     color: #002147 !important;
     font-weight: 500;
-    border-radius: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 nav{
     background: #002147;
+    height: 10vh;
 }
 .fleet{
     position: absolute;
     color: black;
-    bottom: 42px;
-    left: 280px;
+    bottom: 27px;
+    left: 265px;
 }
 .section1{
     width: 100%;
-    height: 80vh; 
+    height: 70vh; 
     background-size: cover;
     background: url('img/angle.png');
 }
@@ -51,23 +56,21 @@ nav{
 }
 .btn-get{
     background: #00BCF5;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 15px;
     color: white;
     font-size: 20px;
     margin-top: 40px;
-    margin-right: 50px;
 }
 .come{
     padding-top: 100px;
 }
 .master{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
-    color: rgb(46, 46, 141);
+    color: #002147;
+    font-family: 'Times New Roman', Times, serif;
 }
 .mid{
     padding-top: 130px;
@@ -75,6 +78,9 @@ nav{
 .dev{
     margin-left: 40px !important;
     color: black;
+}
+.much{
+    padding-bottom: 40px;
 }
 .dev:hover{
     border-bottom: 2px solid black;
@@ -85,6 +91,7 @@ nav{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
 }
 .border{
     border: 1px solid rgba(0, 0, 0, 0.322) !important;
@@ -103,8 +110,7 @@ nav{
     font-size: 12px !important;
     padding-left: 50px;
 }
-.user1{   
-    position: absolut;
+.user1{
     background-size: cover;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
     border-radius: 10px;
@@ -118,11 +124,12 @@ nav{
     background: #F0F4F9;
     margin-top: 100px;
 }
-.top{
+.choose{
     text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     color: rgba(0, 33, 71, 0.9);
+    font-family: 'Times New Roman', Times, serif;
 }
 .learn{
     color: rgba(0, 33, 71, 0.9);
@@ -132,30 +139,37 @@ nav{
     background-color: #002147;
     border-radius: 20px;
     margin-top: 100px;
+    padding: 30px;
+}
+.built{
+    font-family: 'Times New Roman', Times, serif;
 }
 .rect{
     position: absolute !important;
     left: 700px !important;
-    top: 4050px !important;
+    top: 3700px !important;
 }
 .my{
-    margin-top: 200px;
+    margin-top: 170px;
+    padding: 10px;
 }
 .torm{
     position: absolute !important;
-    bottom: 31px !important;
-    right: 12px !important;
+    bottom: 36px !important;
+    right: 18px !important;
+    width: 35%;
 }
 .torms{
     position: absolute;
-    bottom: 60px;
-    right: 12px;
+    bottom: 66px;
+    right: 18px;
 }
 .dami{
     position: absolute;
     top: 0px;
     left: -50px;
     margin-left: 100px;
+    width: 100%;
 }
 .chef{
     margin-top: 100px;
@@ -164,16 +178,16 @@ nav{
     background-color: #fff;
     border: 2px solid #00BCF5;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .cardo{
     background-color: #002147;
 }
 .draw{
-    width: 110%;
+    padding-left: 150px;
+    width: 650px;
+    height: 350px
 }
 .num{
     border-bottom: 5px solid #00BCF5;
@@ -181,10 +195,11 @@ nav{
 }
 .title{
     position: absolute !important;
-    height: 35vh !important;
+    height: 33vh !important;
     width: 550px !important;
-    right: 400px !important;
-    top: 6020px !important;
+    right: 330px !important;
+    top: 5330px !important;
+    padding: 25px;
 }
 .naira{
     margin-top: 15px;
@@ -198,7 +213,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 200px;
-    height: 100vh;
+    height: 70vh;
 }
 .learner{
     padding-top: 90px;
@@ -211,11 +226,9 @@ nav{
     color: #00BCF5;
 }
 .section4{
-    background: #012447;
-    padding-top: 100px;
-}
-.tt{
-    position: relative;
+    background: hsl(210, 97%, 14%);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .bloc{
     position: absolute;
@@ -224,9 +237,6 @@ nav{
     left: 130px;
     bottom: 0px;
     background: #00BCF5;
-}
-.tg{
-    padding-bottom: 200px;
 }
 .head {
     margin-top: 40px;
@@ -244,31 +254,64 @@ nav{
     width: 200%;
 }
 .tool{
-    width: 150%;
+    width: 120%;
 }
 .africa{
-    width: 500px; 
-    height: 650px;
+    width: 400px; 
+    height: 500px;
 }
 .path{
-    width: 100%;
-}
-.dami{
-    width: 100%;
+    width: 90%;
 }
 .comp{
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 .lean{
     font-size: small;
 }
-@media(max-width: 576px){
-    .pic{
-        height: 60vh !important;
-        margin-top: 0px !important;
+.new{
+    font-size: 15px;
+}
+.instruct{
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+ @media(max-width: 576px){
+    .navbar-nav{
+        background: #002147;
+        padding-bottom: 20px;
     }
-    .mage{
-        margin-top: 20px !important;
+    .corp{
+        padding-left: 0px !important;
+    }
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+    .vector img{
+        width: 30% !important;
+    }
+    .come{
+        padding-top: 0.2rem !important;
+        text-align: center !important;
+    }
+    .master{
+        text-align: center !important;
+    }
+    .top{
+        font-size: 25px;
+    }
+    .dev{
+        margin-left: 20px !important;
+        color: black !important;
     }
     .star{
         font-size: 15px !important;
@@ -284,126 +327,111 @@ nav{
     .intros{
         font-size: 13px !important;
     }
-    .dev{
-        margin-left: 20px !important;
-        color: black !important;
+    .choose{
+        font-size: 27px;
     }
-    .new{
-        font-size: small !important;
-    }
-    .lean{
-        font-size: x-small !important;
-    }
-    .toper{
-        font-size: 25px !important;
-    }
-    .top{
-        text-align: left !important;
-        font-size: 20px !important;
-        padding-top: 50px !important;
-        line-height: 20px !important;
-        padding-left: 80px !important;
-    }
-    .feat{
-        padding-top: 150px !important;
-    }
-    .section1{
-        height: 50vh !important; 
-        background: url('img/angle.png')center !important;
-        background-size: cover!important;
-    }
-    .vector{
-       padding-top: 40% !important;
-       padding-left: 45% !important;
-    }
-    .vector img{
-        width: 30% !important;
-    }
-    .block{
-        width: 95% !important;
-        height: auto !important;
-        left: 10px !important;
-    }
-    .span{
-        width: 40% !important;
-        left: 0px !important;
-        padding-top: 25px !important;
-        font-size: 15px !important;
-        line-height: 25px !important;
-    }
-    #demo{
-        text-align: left !important;
-        font-size: 18px !important;
-        margin-top: 35px !important;
-        color: white !important;
-        font-weight: 600 !important;
-        padding-left: 6px !important;
-    }
-    .grad{
-        display: none !important;
-    }
-    .come{
-        padding-top: 0.2rem !important;
-        text-align: center !important;
-    }
-    .master{
-        text-align: center !important;
-    }
-    .skills{
-        text-align: center !important;
-    }
-    .take{ 
-        margin-top: -160px !important;
-    }
-    .autom{
-        display: none !important;
-    }
-    .head{
-        padding-right: 30px !important;
-        padding-left: 10px !important;
-    }
-    .bloc{
-        width: 80% !important;
-        left: 0 !important;
+    .africa{
+        width: 300px !important; 
+        height: 400px !important;
+        align-items: center;
+    } 
+    .class{
+        margin-top: 25px;
     }
     .circle{
-        width: 10% !important;
+        width: 0% !important;
+    }
+    .learn{
+        color: rgba(0, 33, 71, 0.9);
+        font-size: 20px;
+        padding-left: 60px;
+    }
+    .lean{
+        font-size: small !important;
+        text-align: center;
+    }
+    .cardos{
+        margin-top: 0px;
+    }
+    .built{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
     }
     .tool{
         width: 17% !important;
         margin-left: 130px !important;
         margin-top: 20px !important;
     }
-    .africa{
-        width: 350px !important; 
-        height: 400px !important;
+    .my{
+        margin-top: 50px;
+        padding-bottom: 10px;
     }
-    .path{
-        width: 310px !important;
-        padding-right: 100px !important;
+    .torm{
+        bottom:9px !important;
+        right: 165px !important;
+        width: 7%;
+    }
+    .torms{
+        bottom: 15px !important;
+        right: 165px !important;
+        width: 8%;
+    }
+    .chef{
+        margin-top: 30px;
     }
     .dami{
         width: 325px !important;
         margin-top: 20px !important;
         padding-right: 100px !important;
     }
+    .path{
+        width: 310px !important;
+        padding-right: 100px !important;
+        margin-top: 20px !important;
+    }
+    .new{
+        font-size: small !important;
+    }
+    .lorem{
+        text-align: center;
+    }
     .draw{
-        width: 100% !important;
+        width: 350px !important;
+        height: 200px !important;
+        padding-left: 0px;
     }
-    .torm{
-        bottom:8px !important;
-        right: 140px !important;
+    .title{
+        width: 350px !important;
+        right: 10px !important;
+        top: 10915px !important;
+        height: 37vh !important;
     }
-    .torms{
-        bottom: 15px !important;
-        right: 143px !important;
+    .earn{
+        width: 100%;
+        padding-right: 60px;
+    }
+    .much{
+        padding-bottom: 0px;
+    }
+    .pic{
+        height: 50vh !important;
+        margin-top: 310px !important;
+    }
+    .land{
+        width: 40%;
+        padding-left: 50px;
+    }
+    .section4{
+        padding-top: 30px;
+        padding-bottom: 250px !important;
     }
     .comp{
-        margin-top: 30px !important;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
+   
 
-} 
-@media(max-width: 768px){
+/*@media(max-width: 768px){
     .pic{
         height: 40vh !important;
     }
@@ -474,11 +502,6 @@ nav{
        padding-top: 20% !important;
        padding-left: 45% !important;
     }
-    .block{
-        width: 95% !important;
-        height: auto !important;
-        left: 10px !important;
-    }
     .span{
         width: 40% !important;
         left: 0px !important;
@@ -486,14 +509,6 @@ nav{
         font-size: 15px !important;
         line-height: 25px !important;
 
-    }
-    #demo{
-        text-align: left !important;
-        font-size: 18px !important;
-        margin-top: 35px !important;
-        color: white !important;
-        font-weight: 600 !important;
-        padding-left: 6px !important;
     }
     .auto{
         width: 80% !important;
@@ -507,8 +522,8 @@ nav{
     .dear{
         padding-top: 100px !important;
     }
-}
-@media(max-width: 1024px){
+} */
+/* @media(max-width: 1024px){
     .pic{
         height: 40vh !important;
     }
@@ -588,9 +603,6 @@ nav{
      .nav-link{
         padding-right: 10px !important;
     }
-    .block{
-        width: 95% !important;
-    }
     .skills{
         line-height: 32px !important;
         font-size: 25px !important;
@@ -618,4 +630,5 @@ nav{
         left: 30px !important;
     }
     
-} 
+}
+  */ 
