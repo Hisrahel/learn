@@ -16,7 +16,7 @@
     margin-bottom: 120px;
 }
 .cate{
-    padding-left: 100px;
+    padding-left: 106px;
     padding-right: 40px;
     border-radius: 25px;
     margin-right: 2rem;
@@ -41,7 +41,7 @@ nav{
 }
 .section1{
     width: 100%;
-    height: 70vh; 
+    height: 90vh !important; 
     background-size: cover;
     background: url('img/angle.png');
 }
@@ -93,7 +93,7 @@ nav{
     font-family: 'Times New Roman', Times, serif;
 }
 .border{
-    border: 1px solid rgba(0, 0, 0, 0.322) !important;
+    border: none !important;
 }
 .intro{
     font-size: 11px;
@@ -144,12 +144,12 @@ nav{
     font-family: 'Times New Roman', Times, serif;
 }
 .rect{
-    position: absolute !important;
+    position: relative !important;
     left: 700px !important;
-    top: 3670px !important;
+    top: -400px !important;
 }
 .my{
-    margin-top: 170px;
+    margin-top: -400px !important;
     padding: 10px;
 }
 .torm{
@@ -193,12 +193,13 @@ nav{
     padding-top: 25px;
 }
 .title{
-    position: absolute !important;
+    position: relative !important;
     height: 33vh !important;
-    width: 550px !important;
+    width: 70% !important;
     right: 330px !important;
-    top: 5350px !important;
+    top: 0px !important;
     padding: 25px;
+    margin-left: 500px;
 }
 .naira{
     margin-top: 15px;
@@ -211,7 +212,6 @@ nav{
     background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url('img/Rectangle 18.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 200px;
     height: 70vh;
 }
 .learner{
@@ -229,14 +229,6 @@ nav{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.bloc{
-    position: absolute;
-    width: 90%;
-    height: 100px;
-    left: 130px;
-    bottom: 0px;
-    background: #00BCF5;
-}
 .head {
     margin-top: 40px;
     padding-right: 100px;
@@ -253,7 +245,7 @@ nav{
     width: 200%;
 }
 .tool{
-    width: 120%;
+    max-width: 120%;
 }
 .africa{
     width: 400px; 
@@ -278,274 +270,65 @@ nav{
     padding-top: 30px;
 }
 
-@media(max-width: 1024px){
-    .pic{
-        height: 40vh !important;
-    }
-    .title{
-        position: absolute !important;
-        height: 15vh !important;
-        width: 550px !important;
-        right: 200px !important;
-        top: 5840px !important;
-    }
-    .draw{
-        width: 545px !important;
-        height: 350px !important;
-        padding-left: 60px;
-    }
-    .path{
-        width: 90% !important;
-    }
-    .dami{
-        width: 90% !important;
-    }
-    .tool{
-        width: 200% !important;
-    }
-    .torm{
-        bottom: 80px !important;
-        right: -1px !important;
-        width: 50% !important;
-    }
-    .torms{
-        bottom: 85px !important;
-        right: -4px !important;
-        width: 60% !important
-    }
-    .rect{
-        position: absolute !important;
-        left: 570px !important;
-        top: 4550px !important;
-    }
-    .circle{
-        width: 0% !important;
-    }
-    .africa{
-        width: 400px !important; 
-        height: 900px !important;
-    }
-    .top{
-        text-align: center !important;
-        font-size: 25px !important;
-        margin-top: -80px !important;
-    }
-    .lean{
-        font-size: 20px !important;
-    }
-    .dev{
-        margin-left: 30px !important;
-        color: black !important;
-    }
-    .fleet{
-        left: 250px !important;
-        bottom: 50px;
-    }
-    .section1{
-        height: 50vh !important; 
-        background: url('img/angle.png')center !important;
-        background-size: cover!important;
-    }
-    .vector{
-       padding-top: 40% !important;
-       padding-left: 45% !important;
-    }
-    .top{
-        font-size: 30px !important;
-        padding-top: 80px !important;
-    }
-    .rect{
-        position: absolute !important;
-        left: 630px !important;
-        top: 4270px !important;
-    }
-    .corp{
-        padding-left: 13px !important;
-    }
-    .nav-link{
-        margin-right: 0px;
-    }
-    .cate{
-        padding-left: 40px;
-        padding-right: 20px;
-        margin-right: 10px;
-    }
-    .fleet{
-        left: 235px !important;
-        bottom: 36px;
-    }
-    nav{
-        height: 6vh;
-    }
-}
-
-
-@media(max-width: 576px){
-    .navbar-nav{
-        background: #002147;
-        padding-bottom: 20px;
-    }
-    .corp{
-        padding-left: 0px !important;
-    }
-    .section1{
-        height: 50vh !important; 
-        background: url('img/angle.png')center !important;
-        background-size: cover!important;
-    }
-    .vector{
-       padding-top: 40% !important;
-       padding-left: 45% !important;
-    }
-    .vector img{
-        width: 30% !important;
-    }
-    .come{
-        padding-top: 0.2rem !important;
-        text-align: center !important;
-    }
-    .master{
-        text-align: center !important;
-    }
-    .top{
-        font-size: 25px;
-    }
-    .dev{
-        margin-left: 20px !important;
-        color: black !important;
-    }
-    .star{
-        font-size: 15px !important;
-        padding-left: 30px !important;
-    }
-    .naira{
-        font-size: 15px !important;
-        padding-left: 150px !important;
-    }
-    .intro{
-        font-size: 15px !important;
-    }
-    .intros{
-        font-size: 13px !important;
-    }
-    .choose{
-        font-size: 27px;
-    }
-    .africa{
-        width: 300px !important; 
-        height: 400px !important;
-        align-items: center;
-        padding-top: 0px !important;
-    } 
-    .class{
-        margin-top: 25px;
-    }
-    .circle{
-        width: 0% !important;
-    }
-    .learn{
-        color: rgba(0, 33, 71, 0.9);
-        font-size: 20px;
-        justify-content: center;
-    }
-    .lean{
-        font-size: small !important;
-    }
-    .cardos{
+/* RESPONSIVENESS */
+@media (max-width: 768px){
+    .chef{
         margin-top: 0px;
     }
-    .built{
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-    }
-    .tool{
-        width: 17% !important;
-        margin-left: 130px !important;
-        margin-top: 20px !important;
+    .pace{
+        font-size: 15px;
     }
     .my{
-        margin-top: 50px;
-        padding-bottom: 10px;
+        margin-top: -300px !important;
+        padding: 10px !important;
     }
-    .torm{
-        bottom:9px !important;
-        right: 165px !important;
-        width: 7% !important;
+    .master{
+        font-size: 30px !important;
     }
-    .torms{
-        bottom: 15px !important;
-        right: 165px !important;
-        width: 8% !important;
+    .find{
+        width: 100% !important;
     }
-    .chef{
-        margin-top: 30px;
+    .come{
+        padding-top: 50px !important;
     }
-    .dami{
-        width: 325px !important;
-        margin-top: 20px !important;
-        padding-right: 100px !important;
+    .angle{
+        width: 130% !important;
+        height: 270px !important;
     }
-    .path{
-        width: 310px !important;
-        padding-right: 100px !important;
-        margin-top: 20px !important;
+    .mid{
+        padding-top: 30px !important;
+        width: 130% !important;
+        height: 300px !important;
     }
-    .new{
-        font-size: small !important;
+    .fleet{
+        display: none;
     }
-    .lorem{
-        text-align: center;
+    .button{
+        margin-bottom: 30px !important;
     }
-    .draw{
-        width: 350px !important;
-        height: 200px !important;
-        padding-left: 0px;
+    .navbar-nav{
+        padding-left: 0px !important;
     }
-    .title{
-        width: 350px !important;
-        right: 10px !important;
-        top: 11040px !important;
-        height: 37vh !important;
+    .cate{
+        padding-left: 30px !important;
+        padding-right: 40px !important;
+        margin-right: 0px !important;
     }
-    .earn{
-        width: 100%;
-        padding-right: 60px;
-    }
-    .much{
-        padding-bottom: 0px;
-    }
-    .pic{
-        height: 50vh !important;
-        margin-top: 310px !important;
-        padding-bottom: 100px !important;
-    }
-    .land{
-        width: 40%;
-        padding-left: 50px;
-    }
-    .section4{
-        padding-top: 30px;
-    }
-    .comp{
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-}  
-
-@media(max-width: 768px){
     .pic{
         height: 40vh !important;
     }
     .title{
-        position: absolute !important;
-        height: 20vh !important;
-        width: 550px !important;
-        right: 100px !important;
-        top: 6100px !important;
+        position: relative !important;
+        width: 100% !important;
+        right: 0px !important;
+        top: 20px !important;
+        height: 25vh !important;
+        margin-left: 0px !important;
     }
     .draw{
-        width: 420px !important;
-        height: 500px !important;
+        width: 130% !important;
+        height: 450px !important;
+        padding-left: 50px;
     }
     .path{
         width: 80% !important;
@@ -567,19 +350,19 @@ nav{
         width: 10% !important;
     }
     .rect{
-        position: absolute !important;
+        position: relative !important;
         left: 470px !important;
-        top: 4280px !important;
+        top: -305px !important;
     }
     .africa{
-        width: 250px !important; 
+        width: 100% !important; 
         height: 1000px !important;
-        padding-top: 350px !important;
+        padding-top: 200px !important;
     }
     .top{
         text-align: center !important;
         font-size: 25px !important;
-        margin-top: -80px;
+        margin-top: 0px;
     }
     .lean{
         font-size: 20px !important;
@@ -601,24 +384,178 @@ nav{
        padding-left: 45% !important;
     }
     .corp{
-        padding-left: 13px !important;
+        padding-left: 10px !important;
     }
     .copy{
-        margin-top: 160px;
+        margin-top: 60px;
     }
-}
-
-@media(max-width: 670px){
     .research{
         font-size: 15px;
     }
-    .intro{
-        font-size: x-small !important;
-        margin-bottom: 5px !important;
+    .pic{
+        margin-top: 100px !important;
+        height: 70vh !important;
     }
-    .intros{
-        font-size: x-small !important;
-        margin-bottom: 5px !important;
+    .section4{
+        padding-top: 30px;
+    }
+}
+
+    
+/* @media(max-width: 1024px){
+    .copy{
+        margin-top: 80px;
+    }
+    .my{
+        margin-top: -370px !important;
+        padding: 10px;
+    }
+    .research{
+        font-size: 18.6px;
+    }
+    .pic{
+        height: 40vh !important;
+    }
+    .title{
+        position: relative !important;
+        height: 15vh !important;
+        width: 100% !important;
+        right: 500px !important;
+        top: 30px !important;
+    }
+    .draw{
+        width: 123% !important;
+        height: 350px !important;
+        padding-left: 60px;
+    }
+    .path{
+        width: 90% !important;
+    }
+    .dami{
+        width: 90% !important;
+    }
+    .tool{
+        width: 200% !important;
+    }
+    .torm{
+        position: relative;
+        bottom: 90px !important;
+        right: 15px !important;
+        width: 40% !important;
+    }
+    .torms{
+        position: relative;
+        bottom: 30px !important;
+        right: -8px !important;
+        width: 70% !important;
+    }
+    .rect{
+        position: relative !important;
+        left: 570px !important;
+        top: -350px !important;
+    }
+    .circle{
+        width: 0% !important;
+    }
+    .africa{
+        width: 400px !important; 
+        height: 900px !important;
+    }
+    .top{
+        text-align: center !important;
+        font-size: 25px !important;
+        margin-top: -80px !important;
+    }
+    .lean{
+        font-size: 20px !important;
+    }
+    .dev{
+        margin-left: 30px !important;
+        color: black !important;
+    }
+    .fleet{
+        left: 230px !important;
+        bottom: 35px;
+    }
+    .section1{
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+    .top{
+        font-size: 30px !important;
+        padding-top: 80px !important;
+    }
+    .corp{
+        padding-left: 13px !important;
+    }
+    .nav-link{
+        margin-right: 0px;
+    }
+    .cate{
+        padding-left: 40px;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
+    nav{
+        height: 6vh;
+    }
+} */
+
+
+@media (max-width: 480px){
+    nav{
+        height: fit-content !important;
+    }
+    .mage{
+        margin-top: 20px !important;
+    }
+    .find{
+        width: 115% !important;
+    }
+    .button{
+        margin-right: 70px !important;
+        width: 20% !important;
+        margin-bottom: 0px !important;
+    }
+    .navbar-nav{
+        background: #002147 !important;
+        padding-bottom: 20px !important;
+    }
+    .corp{
+        padding-left: 0px !important;
+    }
+    .section1{
+        width: 100% !important;
+        height: 50vh !important; 
+        background: url('img/angle.png')center !important;
+        background-size: cover!important;
+    }
+    .vector{
+       padding-top: 40% !important;
+       padding-left: 45% !important;
+    }
+    .vector img{
+        width: 30% !important;
+    }
+    .come{
+        padding-top: 20px !important;
+        text-align: left !important;
+    }
+    .master{
+        font-size: 15px !important;
+        text-align: left !important;
+    }
+    .top{
+        font-size: 25px !important;
+    }
+    .dev{
+        margin-left: 20px !important;
+        color: black !important;
     }
     .star{
         font-size: x-small !important;
@@ -628,173 +565,209 @@ nav{
         font-size: x-small !important;
         padding-left: 15px !important;
     }
-    .none{
-        padding: 0px !important;
-    }
-    .border{
-        border: none !important;
-        padding: 0px !important;
-    }
-    .come{
-        text-align: left !important;
-    }
-    .btn-get{
-        border-radius: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 10px;
-        margin-top: 20px;
-        color: black;
-    }
-    .find{
-        width: 120%;
-    }
-    .master{
-        font-size: 15px;
-        text-align: left !important;
-    }
-    .angle{
-        width: 50px;
-        height: 200px;
-    }
-    .mid{
-        padding-top: 30px !important;
-        width: 60px;
-        height: 210px;
-        padding-right: 10px;
-    }
-    .title{
-        width: 350px !important;
-        right: 10px !important;
-        top: 6250px !important;
-        height: 37vh !important;
-    }
-    .pic{
-        height: 470px !important;
-    }
-    .copy{
-        margin-top: 30px;
-    }
-    nav{
-        height: 55px;
-    }
-    .navbar-nav{
-        padding: 20px;
-    }
-    .africa{
-        padding-top: 0px !important;
-        width: 310px !important;
-        height: 400px !important;
-    }
-    .draw{
-        height: 300px !important;
-        padding-left: 0px;
-        width: 100% !important;
-    }
-    .button{
-        margin-left: 140px;
-    }
-    .fleet{
-        top: 119px;
-        left: 55px !important;
-    }
-}
-
-/* @media(max-width: 720px){
-    .navbar-nav{
-        background: #002147;
-        padding: 20px;
-    }
     .intro{
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
     .intros{
-        font-size: 20px !important;
+        font-size: 13px !important;
     }
-    .star{
-        font-size: 20px !important;
-        padding-left: 50px;
+    .choose{
+        font-size: 27px !important;
     }
-    .naira{
+    .africa{
+        width: 100% !important; 
+        height: 400px !important;
+        align-items: center;
+        padding-top: 0px !important;
+    } 
+    .class{
+        margin-top: 25px !important;
+    }
+    .circle{
+        width: 0% !important;
+    }
+    .learn{
+        color: rgba(0, 33, 71, 0.9) !important;
         font-size: 20px !important;
+        justify-content: center !important;
+    }
+    .lean{
+        font-size: small !important;
+    }
+    .cardos{
+        margin-top: 0px !important;
+    }
+    .built{
+        font-family: 'Times New Roman', Times, serif !important;
+        text-align: center !important;
+    }
+    .tool{
+        position: relative !important;
+        width: 17% !important;
+        margin-left: 130px !important;
+        margin-top: 20px !important;
+    }
+    .my{
+        margin-top: 50px !important;
+        padding-bottom: 10px !important;
+    }
+    .torm{
+        position: relative !important;
+        bottom: -8px !important;
+        right: 50px !important;
+        width: 7% !important;
+    }
+    .torms{
+        position: relative !important;
+        bottom: -9px !important;
+        right: 50px !important;
+        width: 8% !important;
+    }
+    .chef{
+        margin-top: 30px !important;
+    }
+    .dami{
+        width: 85% !important;
+        margin-top: 20px !important;
+        padding-right: 30px !important;
+    }
+    .path{
+        width: 85% !important;
+        padding-right: 70px !important;
+        margin-top: 20px !important;
+    }
+    .new{
+        font-size: small !important;
+    }
+    .lorem{
+        text-align: center !important;
+    }
+    .draw{
+        width: 90% !important;
+        height: 200px !important;
+        padding-left: 25px !important;
+    }
+    .title{
+        position: relative !important;
+        width: 100% !important;
+        top: 20px !important;
+        height: 40vh !important;
+        margin-left: 0px !important;
+    }
+    .earn{
+        width: 100% !important;
+        padding-right: 60px !important;
+    }
+    .much{
+        padding-bottom: 0px !important;
+    }
+    .pic{
+        width: 100% !important;
+        margin-top: 0px !important;
+        height: 70vh !important;
+    }
+    .land{
+        width: 40% !important;
+        padding-left: 50px !important;
+    }
+    .section4{
+        padding-top: 30px !important;
     }
     .angle{
-        width: 60px;
-        height: 250px;
+        width: 200% !important;
+        height: 200px !important;
     }
     .mid{
         padding-top: 30px !important;
-        width: 70px;
-        height: 270px;
-        padding-right: 10px;
+        width: 200% !important;
+        height: 210px !important;
     }
-    .border{
-        border: none !important;
-        padding: 0px !important;
+    .btn-get{
+        border-radius: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        font-size: 10px !important;
+        margin-top: 20px !important;
+        color: black !important;
     }
-    .find{
-        width: 150%;
+    .fleet{
+        left: 80px !important;
+        bottom: -40px !important;
     }
-    .come{
-        padding-top: 30px;
-        margin-right: 90px;
+    .navbar-nav{
+        padding: 20px !important;
     }
-    .master{
-        font-size: 25px;
-        text-align: left !important;
+    .research{
+        font-size: 18.2px !important;
+    }
+
+}
+
+ /* @media(max-width: 1366px){
+    .copy{
+        margin-top: 80px;
+    }
+    .my{
+        margin-top: -370px !important;
+        padding: 10px;
+    }
+    .research{
+        font-size: 18.6px;
     }
     .pic{
-        height: 30vh !important;
-        margin-top: 200px;
+        height: 40vh !important;
+        margin-top: 100px !important;
     }
     .title{
-        position: absolute !important;
-        height: 20vh !important;
-        width: 550px !important;
-        right: 90px !important;
-        top: 8200px !important;
-    }
-    .land{
-        width: 30%;
+        position: relative !important;
+        height: 25vh !important;
+        width: 100% !important;
+        right: 500px !important;
+        top: 30px !important;
     }
     .draw{
-        width: 515px !important;
-        height: 300px !important;
-        padding-left: 0px;
+        width: 123% !important;
+        height: 350px !important;
+        padding-left: 60px;
     }
     .path{
-        width: 80% !important;
+        width: 90% !important;
     }
     .dami{
-        width: 80% !important;
+        width: 90% !important;
     }
     .tool{
-        width: 20% !important;
+        position: relative;
+        width: 200% !important;
     }
     .torm{
-        bottom:139px !important;
-        right: -1px !important;
-        width: 10% !important;
+        position: absolute !important;
+        bottom: 40px !important;
+        right: 15px !important;
+        width: 40% !important;
     }
     .torms{
-        bottom: 117px !important;
-        right: -4px !important;
-        width: 10% !important;
+        position: absolute !important;
+        bottom: 62px !important;
+        right: 15px !important;
+        width: 40% !important;
     }
     .rect{
-        position: absolute !important;
-        left: 470px !important;
-        top: 4280px !important;
+        position: relative !important;
+        left: 670px !important;
+        top: -400px !important;
+    }
+    .circle{
+        width: 0% !important;
     }
     .africa{
-        width: 500px !important; 
-        height: 500px !important;
-        padding-top: 20px !important;
+        width: 400px !important; 
+        height: 900px !important;
     }
     .top{
         text-align: center !important;
         font-size: 25px !important;
-        margin-top: -80px;
+        margin-top: -80px !important;
     }
     .lean{
         font-size: 20px !important;
@@ -803,33 +776,43 @@ nav{
         margin-left: 30px !important;
         color: black !important;
     }
-    .nav-link{
-        margin-right: 0px !important;
-    }
+    .fleet{
+        position: relative;
+        left: 30px !important;
+        bottom: 35px;
+    } 
     .section1{
-        height: 40vh !important; 
+        height: 50vh !important; 
         background: url('img/angle.png')center !important;
         background-size: cover!important;
     }
     .vector{
        padding-top: 40% !important;
        padding-left: 45% !important;
+       width: 100%;
+    }
+    .top{
+        font-size: 30px !important;
+        padding-top: 80px !important;
     }
     .corp{
         padding-left: 13px !important;
     }
-    .copy{
-        margin-top: 160px;
+    .nav-link{
+        margin-right: 26px;
     }
-    .section4{
-        padding-top: 30px;
-        height:1300px;
+    .cate{
+        padding-left: 100px;
+        padding-right: 140px;
+        margin-right: 10px;
     }
-    .comp{
-        margin-bottom: 10px !important; 
+    nav{
+        padding-bottom: 10px !important;
+    }
+    .corp{
+        padding-left: 15px !important;
     }
     .button{
-        margin-left: 140px;
-        width: 20%;
+        margin-bottom: 30px !important;
     }
-}   */
+} */
