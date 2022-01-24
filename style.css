@@ -35,8 +35,8 @@ nav{
 .fleet{
     position: absolute;
     color: black;
-    bottom: 27px;
-    left: 265px;
+    bottom: 25px;
+    left: 290px;
 }
 .section1{
     width: 100%;
@@ -194,11 +194,10 @@ nav{
 .title{
     position: relative !important;
     height: 33vh !important;
-    width: 70% !important;
-    right: 330px !important;
+    width: 50% !important;
     top: 0px !important;
     padding: 25px;
-    margin-left: 500px;
+    padding-bottom: 200px;
 }
 .naira{
     margin-top: 15px;
@@ -211,7 +210,7 @@ nav{
     background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url('img/Rectangle 18.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 85vh;
 }
 .learner{
     padding-top: 90px;
@@ -270,7 +269,7 @@ nav{
 }
 
 /* RESPONSIVENESS */
-    @media (min-width: 576px){ 
+    @media (min-width: 576px) and  (max-width: 767px){ 
     .chef{
         margin-top: 0px;
     }
@@ -406,9 +405,12 @@ nav{
         width: 40% !important;
         padding-left: 50px !important;
     }
+    nav{
+        height: fit-content !important;
+    }
 }  
 
- @media (max-width: 576px){
+ @media (min-width: 0px) and (max-width: 576px) {
     nav{
         height: fit-content !important;
     }
@@ -540,7 +542,6 @@ nav{
         width: 100% !important;
         top: 20px !important;
         height: 40vh !important;
-        margin-left: 330px !important;
     }
     .earn{
         width: 100% !important;
@@ -579,8 +580,7 @@ nav{
         color: black !important;
     }
     .fleet{
-        left: 80px !important;
-        bottom: -40px !important;
+        display: none;
     }
     .navbar-nav{
         padding: 20px !important;
@@ -592,7 +592,10 @@ nav{
         font-size: 15px;
     }
 } 
-      @media(min-width: 768px){
+      @media(min-width: 768px) and (max-width: 991px){
+        .fleet{
+            display: none;
+        }
         .nav-link{
             margin-right: 0px !important;
             padding-right: 0px !important;
@@ -668,7 +671,10 @@ nav{
     
 } 
 
-    @media(min-width: 992px){
+    @media(min-width: 992px) and (max-width: 1199px){
+        .fleet{
+            display: none;
+        }
      .nav-link{
             padding-right: 15px !important;
         }
@@ -754,8 +760,11 @@ nav{
             padding-bottom: 5px;
         }
     } 
-
-    @media(min-width: 1201px){
+    
+    @media(min-width: 1200px) and (max-width: 1399px){
+        .fleet{
+            display: none;
+        }
         .nav-link{
             padding-right: 10px !important;
         }
@@ -843,6 +852,9 @@ nav{
        } 
 
        @media(min-width: 1400px){
+        .fleet{
+            display: none;
+        }
         .nav-link{
             padding-right: 10px !important;
         }
