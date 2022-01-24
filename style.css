@@ -4,22 +4,21 @@
     box-sizing: border-box;
 }
 .navbar-nav{
-    padding-left: 2rem;
+    padding-left: 2rem !important;
 }
 .nav-link{
     color: white !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 28px;
+    margin-right: 10px;
 }
 .land{
     margin-top: 15px;
     margin-bottom: 120px;
 }
 .cate{
-    padding-left: 106px;
-    padding-right: 40px;
+    padding-left: 150px !important;
+    padding-right: 150px !important;
     border-radius: 25px;
-    margin-right: 2rem;
 }
 .btn-sign{
     background: white;
@@ -31,7 +30,7 @@
 }
 nav{
     background: #002147;
-    height: 10vh;
+    height: 10vh !important;
 }
 .fleet{
     position: absolute;
@@ -41,7 +40,7 @@ nav{
 }
 .section1{
     width: 100%;
-    height: 90vh !important; 
+    height: 100vh !important; 
     background-size: cover;
     background: url('img/angle.png');
 }
@@ -245,33 +244,33 @@ nav{
     width: 200%;
 }
 .tool{
-    max-width: 120%;
+    width: 120%;
 }
 .africa{
     width: 400px; 
     height: 500px;
 }
 .path{
-    width: 90%;
+    width: 90% !important;
 }
 .comp{
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 50px !important;
+    margin-bottom: 60px !important;
 }
 .lean{
     font-size: small !important;
 }
 .new{
-    font-size: 15px;
+    font-size: 15px !important;
 }
 .instruct{
-    color: white;
-    padding-left: 30px;
-    padding-top: 30px;
+    color: white !important;
+    padding-left: 30px !important;
+    padding-top: 30px !important;
 }
 
 /* RESPONSIVENESS */
-@media (max-width: 768px){
+    @media (min-width: 576px){ 
     .chef{
         margin-top: 0px;
     }
@@ -304,13 +303,15 @@ nav{
         display: none;
     }
     .button{
-        margin-bottom: 30px !important;
+        margin-right: 90px !important;
+        width: 20% !important;
+        margin-bottom: 0px !important;
     }
     .navbar-nav{
         padding-left: 0px !important;
     }
     .cate{
-        padding-left: 30px !important;
+        padding-left: 20px !important;
         padding-right: 40px !important;
         margin-right: 0px !important;
     }
@@ -322,13 +323,13 @@ nav{
         width: 100% !important;
         right: 0px !important;
         top: 20px !important;
-        height: 25vh !important;
+        height: 40vh !important;
         margin-left: 0px !important;
     }
     .draw{
-        width: 130% !important;
-        height: 450px !important;
-        padding-left: 50px;
+        width: 100% !important;
+        height: 200px !important;
+        padding-left: 0px;
     }
     .path{
         width: 80% !important;
@@ -337,17 +338,9 @@ nav{
         width: 80% !important;
     }
     .tool{
-        width: 20% !important;
-    }
-    .torm{
-        bottom:139px !important;
-        right: -1px !important;
-        width: 10% !important;
-    }
-    .torms{
-        bottom: 117px !important;
-        right: -4px !important;
-        width: 10% !important;
+        width: 17% !important;
+        margin-left: 130px !important;
+        margin-top: 20px !important;
     }
     .rect{
         position: relative !important;
@@ -356,8 +349,8 @@ nav{
     }
     .africa{
         width: 100% !important; 
-        height: 1000px !important;
-        padding-top: 200px !important;
+        height: 400px !important;
+        padding-top: 0px !important;
     }
     .top{
         text-align: center !important;
@@ -372,7 +365,7 @@ nav{
         color: black !important;
     }
     .nav-link{
-        margin-right: 0px !important;
+        padding-right: 90px !important;
     }
     .section1{
         height: 50vh !important; 
@@ -399,115 +392,23 @@ nav{
     .section4{
         padding-top: 30px;
     }
-}
-
-    
-/* @media(max-width: 1024px){
-    .copy{
-        margin-top: 80px;
+    .mage{
+        margin-top: 20px !important;
     }
-    .my{
-        margin-top: -370px !important;
-        padding: 10px;
-    }
-    .research{
-        font-size: 18.6px;
-    }
-    .pic{
-        height: 40vh !important;
-    }
-    .title{
-        position: relative !important;
-        height: 15vh !important;
-        width: 100% !important;
-        right: 500px !important;
-        top: 30px !important;
-    }
-    .draw{
-        width: 123% !important;
-        height: 350px !important;
-        padding-left: 60px;
-    }
-    .path{
-        width: 90% !important;
-    }
-    .dami{
-        width: 90% !important;
-    }
-    .tool{
-        width: 200% !important;
-    }
-    .torm{
-        position: relative;
-        bottom: 90px !important;
-        right: 15px !important;
-        width: 40% !important;
-    }
-    .torms{
-        position: relative;
-        bottom: 30px !important;
-        right: -8px !important;
-        width: 70% !important;
-    }
-    .rect{
-        position: relative !important;
-        left: 570px !important;
-        top: -350px !important;
+    .navbar-nav{
+        background: #002147 !important;
+        padding: 20px !important; 
     }
     .circle{
-        width: 0% !important;
+        width: 15% !important;
     }
-    .africa{
-        width: 400px !important; 
-        height: 900px !important;
+    .land{
+        width: 40% !important;
+        padding-left: 50px !important;
     }
-    .top{
-        text-align: center !important;
-        font-size: 25px !important;
-        margin-top: -80px !important;
-    }
-    .lean{
-        font-size: 20px !important;
-    }
-    .dev{
-        margin-left: 30px !important;
-        color: black !important;
-    }
-    .fleet{
-        left: 230px !important;
-        bottom: 35px;
-    }
-    .section1{
-        height: 50vh !important; 
-        background: url('img/angle.png')center !important;
-        background-size: cover!important;
-    }
-    .vector{
-       padding-top: 40% !important;
-       padding-left: 45% !important;
-    }
-    .top{
-        font-size: 30px !important;
-        padding-top: 80px !important;
-    }
-    .corp{
-        padding-left: 13px !important;
-    }
-    .nav-link{
-        margin-right: 0px;
-    }
-    .cate{
-        padding-left: 40px;
-        padding-right: 20px;
-        margin-right: 10px;
-    }
-    nav{
-        height: 6vh;
-    }
-} */
+}  
 
-
-@media (max-width: 480px){
+ @media (max-width: 576px){
     nav{
         height: fit-content !important;
     }
@@ -602,7 +503,6 @@ nav{
         text-align: center !important;
     }
     .tool{
-        position: relative !important;
         width: 17% !important;
         margin-left: 130px !important;
         margin-top: 20px !important;
@@ -610,18 +510,6 @@ nav{
     .my{
         margin-top: 50px !important;
         padding-bottom: 10px !important;
-    }
-    .torm{
-        position: relative !important;
-        bottom: -8px !important;
-        right: 44px !important;
-        width: 7% !important;
-    }
-    .torms{
-        position: relative !important;
-        bottom: -9px !important;
-        right:45px !important;
-        width: 8% !important;
     }
     .chef{
         margin-top: 30px !important;
@@ -652,7 +540,7 @@ nav{
         width: 100% !important;
         top: 20px !important;
         height: 40vh !important;
-        margin-left: 0px !important;
+        margin-left: 330px !important;
     }
     .earn{
         width: 100% !important;
@@ -699,120 +587,345 @@ nav{
     }
     .research{
         font-size: 18.2px !important;
-    }
-
-}
-
- /* @media(max-width: 1366px){
-    .copy{
-        margin-top: 80px;
-    }
-    .my{
-        margin-top: -370px !important;
-        padding: 10px;
-    }
-    .research{
-        font-size: 18.6px;
-    }
-    .pic{
-        height: 40vh !important;
-        margin-top: 100px !important;
-    }
-    .title{
-        position: relative !important;
-        height: 25vh !important;
-        width: 100% !important;
-        right: 500px !important;
-        top: 30px !important;
-    }
-    .draw{
-        width: 123% !important;
-        height: 350px !important;
-        padding-left: 60px;
-    }
-    .path{
-        width: 90% !important;
-    }
-    .dami{
-        width: 90% !important;
-    }
-    .tool{
-        position: relative;
-        width: 200% !important;
-    }
-    .torm{
-        position: absolute !important;
-        bottom: 40px !important;
-        right: 15px !important;
-        width: 40% !important;
-    }
-    .torms{
-        position: absolute !important;
-        bottom: 62px !important;
-        right: 15px !important;
-        width: 40% !important;
-    }
-    .rect{
-        position: relative !important;
-        left: 670px !important;
-        top: -400px !important;
-    }
-    .circle{
-        width: 0% !important;
-    }
-    .africa{
-        width: 400px !important; 
-        height: 900px !important;
-    }
-    .top{
-        text-align: center !important;
-        font-size: 25px !important;
-        margin-top: -80px !important;
-    }
-    .lean{
-        font-size: 20px !important;
-    }
-    .dev{
-        margin-left: 30px !important;
-        color: black !important;
-    }
-    .fleet{
-        position: relative;
-        left: 30px !important;
-        bottom: 35px;
     } 
-    .section1{
-        height: 50vh !important; 
-        background: url('img/angle.png')center !important;
-        background-size: cover!important;
+    .pace{
+        font-size: 15px;
     }
-    .vector{
-       padding-top: 40% !important;
-       padding-left: 45% !important;
-       width: 100%;
-    }
-    .top{
-        font-size: 30px !important;
-        padding-top: 80px !important;
-    }
-    .corp{
-        padding-left: 13px !important;
-    }
-    .nav-link{
-        margin-right: 26px;
-    }
-    .cate{
-        padding-left: 100px;
-        padding-right: 140px;
-        margin-right: 10px;
-    }
-    nav{
-        padding-bottom: 10px !important;
-    }
-    .corp{
-        padding-left: 15px !important;
-    }
-    .button{
-        margin-bottom: 30px !important;
-    }
-} */
+} 
+      @media(min-width: 768px){
+        .nav-link{
+            margin-right: 0px !important;
+            padding-right: 0px !important;
+        }
+        .button{
+            margin-right: 0px !important;
+            width: 10% !important;
+            padding-bottom: 0px !important;
+        }
+        nav{
+            background: #002147 !important; 
+            height: 15vh !important;
+        } 
+        .angle{
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mid{
+            padding-top: 30px !important;
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mage{
+            margin-top: 0px !important;
+        }
+        .rect{
+            position: relative !important;
+            left: 450px !important;
+            top: -300px !important;
+        }
+        .tool{
+            width: 200% !important;
+            margin-left: 0px !important;
+            margin-top: 0px !important;
+        }
+        .dami{
+            width: 90% !important;
+        }
+        .chef{
+            margin-top: 90px !important;
+        }
+        .draw{
+            width: 123% !important;
+            height: 350px !important;
+            padding-left: 60px;
+        }
+        .title{
+            position: relative !important;
+            height: 30vh !important;
+            width: 100% !important;
+            right: 0px !important;
+            top: 30px !important;
+        }
+        .land{
+            margin-top: 15px;
+            margin-bottom: 120px;
+            width: 120% !important;
+        }
+        .btn-sign{
+            background: white;
+            color: #002147 !important;
+            font-weight: 500;
+            margin-top: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: 10px !important;
+        }
+        .cate{
+            padding-left: 20px !important;
+            padding-right: 40px !important;
+            margin-right: 10px !important;
+        }
+    
+} 
+
+    @media(min-width: 992px){
+     .nav-link{
+            padding-right: 15px !important;
+        }
+        .button{
+            margin-right: 0px !important;
+            width: 8% !important;
+            padding-bottom: 0px !important;
+        }
+        nav{
+            background: #002147 !important; 
+            height: 15vh !important;
+        } 
+        .angle{
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mid{
+            padding-top: 30px !important;
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mage{
+            margin-top: 0px !important;
+        }
+        .rect{
+            position: relative !important;
+            left: 570px !important;
+            top: -350px !important;
+        }
+        .tool{
+            width: 150% !important;
+            margin-left: 0px !important;
+            margin-top: 0px !important;
+        }
+        .dami{
+            width: 90% !important;
+        }
+        .chef{
+            margin-top: 90px !important;
+        }
+        .draw{
+            width: 123% !important;
+            height: 350px !important;
+            padding-left: 60px;
+        }
+        .title{
+            position: relative !important;
+            height: 30vh !important;
+            width: 100% !important;
+            right: 0px !important;
+            top: 30px !important;
+        }
+        .land{
+            margin-top: 15px;
+            margin-bottom: 120px;
+            width: 120% !important;
+        }
+        .vector{
+            padding-top: 25% !important;
+            padding-left: 50%;
+         }
+         .section1{
+            height: 100vh !important; 
+            background: url('img/angle.png')center !important;
+            background-size: cover!important;
+        }
+        .rect{
+            position: relative !important;
+            left: 650px !important;
+            top: -370px !important;
+        }
+        .cate{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            margin-right: 10px !important;
+        }
+        .btn-sign{
+            background: white;
+            color: #002147 !important;
+            font-weight: 500;
+            margin-top: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    } 
+
+    @media(min-width: 1201px){
+        .nav-link{
+            padding-right: 10px !important;
+        }
+        .button{
+            margin-right: 0px !important;
+            width: 8% !important;
+            padding-bottom: 0px !important;
+        }
+        nav{
+            background: #002147 !important; 
+            height: 10vh !important;
+        } 
+        .angle{
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mid{
+            padding-top: 30px !important;
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mage{
+            margin-top: 0px !important;
+        }
+        .rect{
+            position: relative !important;
+            left: 570px !important;
+            top: -350px !important;
+        }
+        .tool{
+            width: 150% !important;
+            margin-left: 0px !important;
+            margin-top: 0px !important;
+        }
+        .dami{
+            width: 90% !important;
+        }
+        .chef{
+            margin-top: 90px !important;
+        }
+        .draw{
+            width: 123% !important;
+            height: 350px !important;
+            padding-left: 60px;
+        }
+        .title{
+            position: relative !important;
+            height: 30vh !important;
+            width: 100% !important;
+            right: 0px !important;
+            top: 30px !important;
+        }
+        .land{
+            margin-top: 15px;
+            margin-bottom: 120px;
+            width: 120% !important;
+        }
+        .vector{
+            padding-top: 25% !important;
+            padding-left: 50%;
+         }
+         .section1{
+            height: 100vh !important; 
+            background: url('img/angle.png')center !important;
+            background-size: cover!important;
+        }
+        .rect{
+            position: relative !important;
+            left: 650px !important;
+            top: -370px !important;
+        }
+        .cate{
+            padding-left: 110px !important;
+            padding-right: 90px !important;
+            margin-right: 10px;
+        }
+        .btn-sign{
+            background: white;
+            color: #002147 !important;
+            font-weight: 500;
+            margin-top: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+       } 
+
+       @media(min-width: 1400px){
+        .nav-link{
+            padding-right: 10px !important;
+        }
+        .button{
+            margin-right: 0px !important;
+            width: 8% !important;
+            padding-bottom: 0px !important;
+        }
+        nav{
+            background: #002147 !important; 
+            height: 10vh !important;
+        } 
+        .angle{
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mid{
+            padding-top: 30px !important;
+            width: 100% !important;
+            height: 300px !important;
+        }
+        .mage{
+            margin-top: 0px !important;
+        }
+        .rect{
+            position: relative !important;
+            left: 570px !important;
+            top: -350px !important;
+        }
+        .tool{
+            width: 150% !important;
+            margin-left: 0px !important;
+            margin-top: 0px !important;
+        }
+        .dami{
+            width: 90% !important;
+        }
+        .chef{
+            margin-top: 90px !important;
+        }
+        .draw{
+            width: 123% !important;
+            height: 350px !important;
+            padding-left: 60px;
+        }
+        .title{
+            position: relative !important;
+            height: 30vh !important;
+            width: 100% !important;
+            right: 0px !important;
+            top: 30px !important;
+        }
+        .land{
+            margin-top: 15px;
+            margin-bottom: 120px;
+            width: 120% !important;
+        }
+        .vector{
+            padding-top: 25% !important;
+            padding-left: 50%;
+         }
+         .section1{
+            height: 100vh !important; 
+            background: url('img/angle.png')center !important;
+            background-size: cover!important;
+        }
+        .rect{
+            position: relative !important;
+            left: 650px !important;
+            top: -370px !important;
+        }
+        .cate{
+            padding-left: 200px !important;
+            padding-right: 180px !important;
+            margin-right: 10px;
+        }
+        .btn-sign{
+            background: white;
+            color: #002147 !important;
+            font-weight: 500;
+            margin-top: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+       } 
+   
