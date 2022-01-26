@@ -950,10 +950,10 @@ nav{
         }
         .title{
             position: relative !important;
-            height: 30vh !important;
             width: 50% !important;
             right: -250px !important;
             top: -30px !important;
+            height: 25px !important;
         }
         .land{
             margin-top: 15px;
