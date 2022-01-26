@@ -322,7 +322,7 @@ nav{
         width: 100% !important;
         right: 0px !important;
         top: 20px !important;
-        height: 40vh !important;
+        height: 45vh !important;
         margin-left: 0px !important;
     }
     .draw{
@@ -598,25 +598,27 @@ nav{
         font-size: 15px;
     }
 } 
+
       @media(min-width: 768px) and (max-width: 991px){
-          .africa{
-              width: 100% !important;
-          }
+        .africa{
+            width: 100% !important;
+        }
         .fleet{
             display: none;
         }
         .nav-link{
             margin-right: 0px !important;
             padding-right: 0px !important;
+            font-size: 11px !important;
         }
         .button{
             margin-right: 0px !important;
-            width: 10% !important;
+            width: 7% !important;
             padding-bottom: 0px !important;
         }
         nav{
             background: #002147 !important; 
-            height: 15vh !important;
+            height: fit-content !important;
         } 
         .angle{
             width: 100% !important;
@@ -648,15 +650,21 @@ nav{
         }
         .draw{
             width: 123% !important;
-            height: 350px !important;
+            height: 400px !important;
             padding-left: 60px;
+        }
+        .built{
+            font-size: 24px;
+        }
+        .instruct{
+            text-align: center !important;
         }
         .title{
             position: relative !important;
             height: 30vh !important;
-            width: 100% !important;
-            right: 0px !important;
-            top: 30px !important;
+            width: 82% !important;
+            right: -55px !important;
+            top: -20px !important;
         }
         .land{
             margin-top: 15px;
@@ -674,12 +682,21 @@ nav{
         }
         .cate{
             padding-left: 20px !important;
-            padding-right: 40px !important;
-            margin-right: 10px !important;
+            padding-right: 20px !important;
+            margin-left: 5px !important;
         }
         .my{
             margin-top: -250px !important;
             padding: 10px;
+        }
+        .research{
+            font-size: 18px !important;
+        }
+        .corp{
+            padding-left: 10px !important;
+        }
+        .section1{
+            height: 500px !important;
         }
     
 } 
@@ -689,7 +706,8 @@ nav{
             display: none;
         }
      .nav-link{
-            padding-right: 15px !important;
+            padding-right: 7px !important;
+            font-size: 15px !important;
         }
         .button{
             margin-right: 0px !important;
@@ -698,16 +716,16 @@ nav{
         }
         nav{
             background: #002147 !important; 
-            height: 15vh !important;
+            height: fit-content !important;
         } 
         .angle{
             width: 100% !important;
-            height: 300px !important;
+            height: 400px !important;
         }
         .mid{
             padding-top: 30px !important;
             width: 100% !important;
-            height: 300px !important;
+            height: 450px !important;
         }
         .mage{
             margin-top: 0px !important;
@@ -736,9 +754,9 @@ nav{
         .title{
             position: relative !important;
             height: 30vh !important;
-            width: 100% !important;
-            right: 0px !important;
-            top: 30px !important;
+            width: 60% !important;
+            right: -170px !important;
+            top: -30px !important;
         }
         .land{
             margin-top: 15px;
@@ -762,7 +780,7 @@ nav{
         .cate{
             padding-left: 10px !important;
             padding-right: 10px !important;
-            margin-right: 10px !important;
+            margin-right: 0px !important;
         }
         .btn-sign{
             background: white;
@@ -775,6 +793,9 @@ nav{
         .my{
             margin-top: -250px !important;
             padding: 10px;
+        }
+        .corp{
+            padding-left: 5px !important;
         }
     } 
     
@@ -795,13 +816,13 @@ nav{
             height: 10vh !important;
         } 
         .angle{
-            width: 100% !important;
-            height: 300px !important;
+            width: 110% !important;
+            height: 500px !important;
         }
         .mid{
-            padding-top: 30px !important;
-            width: 100% !important;
-            height: 300px !important;
+            padding-top: 35px !important;
+            width: 110% !important;
+            height: 550px !important;
         }
         .mage{
             margin-top: 0px !important;
@@ -819,20 +840,23 @@ nav{
         .dami{
             width: 90% !important;
         }
+        .copy{
+            margin-top: -250px !important;
+        }
         .chef{
-            margin-top: 0px !important;
+            margin-top: -140px !important;
         }
         .draw{
             width: 123% !important;
             height: 350px !important;
-            padding-left: 60px;
+            padding-left: 70px;
         }
         .title{
             position: relative !important;
             height: 30vh !important;
-            width: 100% !important;
-            right: 0px !important;
-            top: 30px !important;
+            width: 50% !important;
+            right: -270px !important;
+            top: -35px !important;
         }
         .land{
             margin-top: 15px;
@@ -867,17 +891,20 @@ nav{
             padding-bottom: 5px;
         }
         .my{
-            margin-top: -250px !important;
+            margin-top: -400px !important;
             padding: 10px;
         }
        } 
 
        @media(min-width: 1400px){
+           .copy{
+            margin-top: -170px !important;
+           }
         .fleet{
             display: none;
         }
         .nav-link{
-            padding-right: 10px !important;
+            padding-right: 5px !important;
         }
         .button{
             margin-right: 0px !important;
@@ -886,16 +913,16 @@ nav{
         }
         nav{
             background: #002147 !important; 
-            height: 10vh !important;
+            height: fit-content !important;
         } 
         .angle{
             width: 100% !important;
-            height: 300px !important;
+            height: 450px !important;
         }
         .mid{
             padding-top: 30px !important;
             width: 100% !important;
-            height: 300px !important;
+            height: 500px !important;
         }
         .mage{
             margin-top: 0px !important;
@@ -914,7 +941,7 @@ nav{
             width: 90% !important;
         }
         .chef{
-            margin-top: 0px !important;
+            margin-top: -50px !important;
         }
         .draw{
             width: 123% !important;
@@ -924,9 +951,9 @@ nav{
         .title{
             position: relative !important;
             height: 30vh !important;
-            width: 100% !important;
-            right: 0px !important;
-            top: 30px !important;
+            width: 50% !important;
+            right: -250px !important;
+            top: -30px !important;
         }
         .land{
             margin-top: 15px;
@@ -948,8 +975,8 @@ nav{
             top: -370px !important;
         }
         .cate{
-            padding-left: 200px !important;
-            padding-right: 180px !important;
+            padding-left: 180px !important;
+            padding-right: 150px !important;
             margin-right: 10px;
         }
         .btn-sign{
@@ -961,8 +988,8 @@ nav{
             padding-bottom: 5px;
         }
         .my{
-            margin-top: -250px !important;
+            margin-top: -350px !important;
             padding: 10px;
         }
-       } 
+    } 
    
